@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7042537d-8db8-4327-a17d-c70d36459241" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Project/java/Project/LoginTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Project/java/base/TestUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Project/java/com/selenium/course/tests/FirstSeleniumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Project/java/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Project/java/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Project/java/pages/ProductPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Project/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Project/resources/correctUsers.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Project/resources/wrongUsers.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2LeP6jvKabUqIqfsr697Z9iwibK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/danny/IdeaProjects/QAAutomation2023/untitled/src",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\danny\IdeaProjects\QAAutomation2023\untitled\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="FirstSeleniumTest.successfulLoginSauceDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QAAutomation2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.selenium.course.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.selenium.course.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.selenium.course.tests.FirstSeleniumTest" />
+      <option name="METHOD_NAME" value="successfulLoginSauceDemo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QAAutomation2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Project" />
+      <option name="MAIN_CLASS_NAME" value="Project.LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTests (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QAAutomation2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Project" />
+      <option name="MAIN_CLASS_NAME" value="Project.LoginTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QAAutomation2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Project" />
+      <option name="MAIN_CLASS_NAME" value="Project.LoginTests" />
+      <option name="METHOD_NAME" value="successfulLogin" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="1" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTests.successfulLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QAAutomation2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Project" />
+      <option name="MAIN_CLASS_NAME" value="Project.LoginTests" />
+      <option name="METHOD_NAME" value="successfulLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.LoginTests (1)" />
+        <item itemvalue="TestNG.LoginTests" />
+        <item itemvalue="TestNG.LoginTests.successfulLogin" />
+        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.FirstSeleniumTest.successfulLoginSauceDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7042537d-8db8-4327-a17d-c70d36459241" name="Changes" comment="" />
+      <created>1676228402595</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676228402595</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/untitled$LoginTest.ic" NAME="LoginTest Coverage Results" MODIFIED="1677058178076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Project.*</FILTER>
+    </SUITE>
+  </component>
+</project>
