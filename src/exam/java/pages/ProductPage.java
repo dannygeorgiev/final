@@ -7,27 +7,46 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class ProductPage extends BasePage {
-    private final static String PRODUCT_ID = "add-to-cart-sauce-labs-";
 
     //Elements
-    @FindBy(xpath = "//span[@class='title']")
-    WebElement productsPageHeading;
+    @FindBy(id = "search-field")
+    WebElement searchBox;
 
-    @FindBy(xpath = "//span[@class='shopping_cart_badge']")
-    WebElement cartBadge;
+    @FindBy(xpath = "//a[contains(text(), '%s')]")
+    WebElement productTitle;
 
-    public ProductPage(WebDriver driver){
+    @FindBy(className = "btn=buy")
+    WebElement addToCartButton;
+
+
+    @FindBy(xpath = "//div[@class='text']")
+    WebElement cartItemCount;
+
+
+
+    public ProductPage(WebDriver driver, String productName){
         super(driver);
         PageFactory.initElements(driver, this);
+        productTitle = driver.findElement(By.xpath(String.format("//a[contains(text(), '%s')]", productName)));
     }
 
-    public void addItemToTheCart(String itemName){
-        WebElement itemToBeAdded = driver.findElement(By.id(PRODUCT_ID + itemName));
-        itemToBeAdded.click();
+
+    public void searchForProduct(String productName) {
+        searchBox.sendKeys(productName);
+        searchBox.submit();
     }
 
-    public int getItemsInTheCart(){
-        return Integer.parseInt(cartBadge.getText());
+    public void addToCart() {
+        addToCartButton.click();
+    }
+    public String getCartItemCount() {
+        String itemCountText = cartItemCount.getText().trim();
+        return itemCountText;
+    }
+    public String getChosenProduct() {
+        String chosenProduct = productTitle;
+        return chosenProduct;
+
     }
 }
 

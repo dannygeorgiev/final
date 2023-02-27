@@ -5,25 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7042537d-8db8-4327-a17d-c70d36459241" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/src/exam/java/Project/LoginTestPOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exam/java/Project/ProductsAddToCartTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exam/resources/products.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1fc8a7ebbda3f6dc75d1927ce57a6f5c0bd451c5" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Project/java/Project/LoginTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Project/java/base/TestUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Project/java/com/selenium/course/tests/FirstSeleniumTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Project/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/java/pages/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Project/java/pages/LoginPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Project/java/pages/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/java/pages/ProductPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Project/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Project/resources/correctUsers.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/resources/correctUsers.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Project/resources/wrongUsers.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Project/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/java/Project/LoginTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/TestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/java/base/TestUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exam/java/Project/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exam/java/Project/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exam/java/base/TestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exam/java/base/TestUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exam/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exam/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exam/java/pages/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exam/java/pages/ProductPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exam/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/exam/resources/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ProductPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/correctUsers.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/wrongUsers.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/resources/wrongUsers.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +76,7 @@
       <recent name="C:\Users\danny\IdeaProjects\QAAutomation2023\untitled\src" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FirstSeleniumTest.successfulLoginSauceDemo">
+  <component name="RunManager" selected="TestNG.LoginTests">
     <configuration name="FirstSeleniumTest.successfulLoginSauceDemo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QAAutomation2023" />
       <extension name="coverage">
@@ -170,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTests (1)" />
         <item itemvalue="TestNG.LoginTests" />
         <item itemvalue="TestNG.LoginTests.successfulLogin" />
-        <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.FirstSeleniumTest.successfulLoginSauceDemo" />
+        <item itemvalue="TestNG.LoginTests (1)" />
+        <item itemvalue="TestNG.LoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677418430305</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test">
+      <created>1677443276021</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677443276021</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,6 +219,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/untitled$LoginTest.ic" NAME="LoginTest Coverage Results" MODIFIED="1677058178076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Project.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/untitled$LoginTests_successfulLogin.ic" NAME="LoginTests.successfulLogin Coverage Results" MODIFIED="1677523743110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Project.*</FILTER>
     </SUITE>
   </component>

@@ -21,7 +21,7 @@ public class TestUtil {
 
     @BeforeMethod
     public void setUp(){
-        readConfig("src/test/resources/config.properties");
+        readConfig("src/exam/resources/config.properties");
         setupBrowserDriver(browser); //Todo add wait config
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(implicitWait));
         loadTestUrl(applicationUrl);

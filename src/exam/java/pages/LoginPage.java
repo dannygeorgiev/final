@@ -1,5 +1,6 @@
 package pages;
 
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -11,10 +12,10 @@ public class LoginPage extends BasePage {
     @FindBy(id = "email")
     private WebElement userNameInput;
 
-    @FindBy(id = "passwd")
+    @FindBy(id = "password")
     private WebElement passwordInput;
 
-    @FindBy(id = "SubmitLogin")
+    @FindBy(className = "btn login-btn")
     private WebElement loginBtn;
 
     //Constructor
@@ -24,7 +25,7 @@ public class LoginPage extends BasePage {
     }
 
     //Methods
-    public ProductPage login(String userName, String password){
+    public ProductPage login(String userName, String password, String productName){
         userNameInput.click();
         userNameInput.clear();
         userNameInput.sendKeys(userName);
@@ -35,9 +36,14 @@ public class LoginPage extends BasePage {
 
         loginBtn.click();
 
-        return new ProductPage(driver);
+
+        ProductPage productPage = new ProductPage(driver, productName);
+
+        return productPage;
+
     }
 
-
-
 }
+
+
+
